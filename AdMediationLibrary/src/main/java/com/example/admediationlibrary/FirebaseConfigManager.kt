@@ -19,6 +19,7 @@ object FirebaseConfigManager {
       .setMinimumFetchIntervalInSeconds(0)
       .build()
 
+
     remoteConfig.setConfigSettingsAsync(configSettings)
 
     fetchRemoteConfig()
