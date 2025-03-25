@@ -13,7 +13,6 @@ object FirebaseConfigManager {
 
   fun init(context: Context) {
     FirebaseApp.initializeApp(context)
-
     remoteConfig = FirebaseRemoteConfig.getInstance()
     val configSettings = FirebaseRemoteConfigSettings.Builder()
       .setMinimumFetchIntervalInSeconds(0)
