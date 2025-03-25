@@ -35,6 +35,7 @@ object FirebaseConfigManager {
         Log.e("AdMedia", "Failed to fetch Remote Config")
       }
     }
+
   }
 
   private fun parseConfigData(jsonData: String) {
